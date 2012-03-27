@@ -14,14 +14,16 @@ The Kelly Criterion has a representation in all kinds of real life investment st
 
 ## The Model
 
--Independent variables:
--- chance of winning a single stage [p]
--- number of stages per round [K]
+Independent variables:
 
--Dependent variables:
--- own total at the end of a round
--- the other players total at the end of a round
--- type of strategy chosen by a player
+- chance of winning a single stage [p]
+- number of stages per round [K]
+
+Dependent variables:
+
+- own total at the end of a round
+- the other players total at the end of a round
+- type of strategy chosen by a player
 
 
 ## Fundamental Questions
@@ -38,9 +40,9 @@ Since ties are broken randomly and playing with the same strategy has the same e
 
 ## References 
 
-- Ryan O. Murphy "A Sequential Investment Game"
-- J. L. Kelly, Jr. "A New Interpretation of Information Rate"
-- Dr. Edward O. Thorp "The Mathematics of Gambling"
+- Ryan O. Murphy - "A Sequential Investment Game"
+- J. L. Kelly, Jr. - "A New Interpretation of Information Rate"
+- Dr. Edward O. Thorp - "The Mathematics of Gambling"
 
 
 ## Research Methods
