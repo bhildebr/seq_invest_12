@@ -1,44 +1,53 @@
-# MATLAB FS12 – Research Plan (Template)
-(text between brackets to be removed)
+# MATLAB FS12 – Research Plan
 
-> * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed)
+> * Group Name: InvestmentBen
+> * Group participants names: Benjamin Hildebrandt
+> * Project Title: The Quest for the Multiplayer Kelly Criterion
+
 
 ## General Introduction
 
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+The Sequential Investment Game is a "multiplayer extension" of a classical Decision Theory problem. While the Kelly Criterion yields an optimum investment strategy for just one person involved, the main purpose of this project is to analyze whether there is an optimum strategy for playing the Sequential Investment Game with several players.
+
+The Kelly Criterion has a representation in all kinds of real life investment strategies. The extension made in the Sequential Investment Game can be interpreted as some kind of competitive stimulus.
+
 
 ## The Model
 
-(Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
+-Independent variables:
+-- chance of winning a single stage [p]
+-- number of stages per round [K]
+
+-Dependent variables:
+-- own total at the end of a round
+-- the other players total at the end of a round
+-- type of strategy chosen by a player
 
 
 ## Fundamental Questions
 
-(At the end of the project you want to find the answer to these questions)
-(Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
+- Is there an optimum strategy for playing the Sequential Investment Game with 2 (or 3) players?
+  (In other words: Is there a Nash Equilibrium?)
+- If so, does this strategy correlate with the Kelly Criterion? How?
 
 
 ## Expected Results
 
-(What are the answers to the above questions that you expect to find before starting your research?)
+Since ties are broken randomly and playing with the same strategy has the same expected value for each players winnings, all players using the same investment strategy could always result in a tie in the long run.
 
 
 ## References 
 
-(Add the bibliographic references you intend to use)
-(Explain possible extension to the above models)
-(Code / Projects Reports of the previous year)
+- Ryan O. Murphy "A Sequential Investment Game"
+- J. L. Kelly, Jr. "A New Interpretation of Information Rate"
+- Dr. Edward O. Thorp "The Mathematics of Gambling"
 
 
 ## Research Methods
 
-(Cellular Automata, Agent-Based Model, Continuous Modeling...) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards)
+Agent-Based Model
 
 
 ## Other
 
-(mention datasets you are going to use)
+-
